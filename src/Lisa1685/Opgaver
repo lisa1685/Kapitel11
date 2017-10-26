@@ -1,0 +1,18 @@
+Kapitel 11
+
+1. Hvad er superclass?
+- Superclass bruges som en "forældre" klasse, hvor en subklasse kan kalde på metoder
+der bliver brugt i superclass. Inde i klassen Dyr er der oprettet nogle metoder
+der bliver nedarvet til de klasser hvor man extender med Dyr. Det gør det muligt at at bruge
+Dyr metoderne til at oprette andre objekter med, som er tilfældet med hund og kat, så
+man også kan oprette dem og få hunde og katte til at sove og spise.
+
+2. Hvad er subclass?
+En subclass arver fra "forældre" klassen. Det gør den til "børn" eller en specifiseret
+underkategori til superclass. hver subclass kan kun arve fra én superclass.
+med subclass gør det det muligt at hente metoder ind fra Superclass så man kan bruge demetoder
+og oprette nye objekter ved at bruge public void spise(){super.spise sout"tekst der skal udprintes"}
+
+public void sove(){super.sove} konstruktorer kan kun kaldes på med super funktionen.
+tager en no-arg construktor der matcher med det argument man bruger i koden.
+
